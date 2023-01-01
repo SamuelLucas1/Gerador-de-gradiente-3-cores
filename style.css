@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  main {
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #f1efef;
+  }
+  
+  center{
+    color: red;
+  }
+
+  h3 {
+    color: #616161;
+  }
+  
+  .divColors {
+    text-align: center;
+  }
+  
+  input[type="color"] {
+    border: none;
+    background: transparent;
+    width: 80px;
+    height: 40px;
+  }
+  
+  input[type="color"]::-webkit-color-swatch {
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .divDirection > i {
+    font-size: 30px;
+    color: #aaa;
+    cursor: pointer;
+  }
+  
+  .active {
+    color: black!important;
+  }
+  
+  button {
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #2C73D2;
+    cursor: pointer;
+  }
+  
+  textarea {
+    resize: none;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+  }
+
+  .box{
+    width: 65px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 0.6rem;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+.box:hover{
+    width: 200px;
+    background: #c32aa3;
+    border-radius: 35px;
+    color: #fff;
+    box-shadow: 0 0 50px #b315917c;
+}
+.box:nth-child(2):hover{
+    background: #25d366;
+    box-shadow: 0 0 50px #25d3657e;
+}
+.box:nth-child(3):hover{
+    background: #1877f2;
+    box-shadow: 0 0 50px #1876f285;
+}
+.box:nth-child(4):hover{
+    background: #1da1f2;
+    box-shadow: 0 0 50px #1da0f280;
+}
+.navbar p{
+    transform: translate(60px);
+}
+.box .icon{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: all .4s ease;
+}
+.instagram{
+        background-color: #c32aa3;
+        border-radius: 50px;
+    }
+
+    .linktree{
+        background-color: #25d366;
+        border-radius: 50px;
+    }
+
+    .twitter{
+        background-color: #1da1f2;
+        border-radius: 50px;
+    }
+
+    .Gradiente{
+        background-color: #f21d1d;
+        border-radius: 50px;
+    }
+
+.box:hover .icon{
+    background: #fff;
+    color: #3b3b3b;
+    box-shadow: 0 0 20px rgba(0,0,0,0.26);
+}

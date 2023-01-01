@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerador de Gradiente de 3 cores</title>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    <div class="navbar">
+        <div class="box" href = "javascript: Void ('#') "onclick =" window.location = 'https://linktr.ee/Samuel_Mendes'">
+            <div class="icon linktree">
+                <ion-icon name="link-outline"></ion-icon>
+            </div>
+            <p>Linktree</p>
+        </div>
+        <div class="box" href = "javascript: Void ('#') "onclick =" window.location = 'https://www.instagram.com/samuu.mendes/'">
+            <div class="icon instagram">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </div>
+            <p>Instagram</p>
+        </div>
+        <div class="box" href = "javascript: Void ('#') "onclick =" window.location = 'https://twitter.com/KapuchynoEnsina'">
+            <div class="icon twitter">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </div>
+            <p>Twitter</p>
+        </div>
+        <div class="box" href = "javascript: Void ('#') "onclick =" window.location = '/Gerador de Gradiente/index.html'">
+            <div class="icon Gradiente">
+                <ion-icon name="return-down-forward-outline"></ion-icon>
+            </div>
+            <p>2 cores</p>
+        </div>
+    </div>
+
+  <main>
+    <h3>Escolha as cores do Gradiente</h3>
+    <h3>
+        <center>3 cores!</center>
+    </h3>
+    <div class="divColors">
+      <input type="color" id="color01" />
+      <input type="color" id="color02" />
+      <input type="color" id="color03" />
+    </div>
+
+    <h3>Selecione a direção do seu Gradiente</h3>
+
+    <div class="divDirection">
+      <i data-dir="to top" class='bx bx-up-arrow-circle active'></i>
+      <i data-dir="to top right" class='bx bx-right-top-arrow-circle'></i>
+      <i data-dir="to right" class='bx bx-right-arrow-circle'></i>
+      <i data-dir="to bottom right" class='bx bx-right-down-arrow-circle'></i>
+      <i data-dir="to bottom" class='bx bx-down-arrow-circle'></i>
+      <i data-dir="to bottom left" class='bx bx-left-down-arrow-circle'></i>
+      <i data-dir="to left" class='bx bx-left-arrow-circle'></i>
+      <i data-dir="to top left" class='bx bx-left-top-arrow-circle'></i>
+    </div>
+
+    <button>Gerar</button>
+    <textarea  cols="30" rows="5"></textarea>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
